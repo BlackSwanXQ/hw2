@@ -66,7 +66,7 @@ public class Main {
         System.out.println(employeeCount);
 //        var everyTime2 = allTime / employeeCount -not;
         var allTime2 = employeeCount * everyTime;
-        System.out.println("Если в кaмпании работает " + employeeCount + " человека, то всего " + allTime2 + " часа работы может быть поделено между сотрудниками");
+        System.out.println("Если в кoмпании работает " + employeeCount + " человека, то всего " + allTime2 + " часа работы может быть поделено между сотрудниками");
 
 
     }
