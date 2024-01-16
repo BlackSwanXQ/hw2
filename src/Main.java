@@ -59,13 +59,14 @@ public class Main {
         //task8
         var allTime = 640;
         var everyTime = 8;
-        var emploeeCount = allTime/everyTime;
-        System.out.println("Всего работников в компании - "+ emploeeCount + " человек");
+        var employeeCount = allTime/everyTime;
+        System.out.println("Всего работников в компании - "+ employeeCount + " человек");
 
-        var emploeeCount2 = emploeeCount + 94;
-        System.out.println(emploeeCount2);
-        var everyTime2 = 640/emploeeCount2;
-        System.out.println("Если в компании работает " + emploeeCount2 + " человека, то всего " + everyTime2 + " часа работы может быть поделено между сотрудниками");
+        employeeCount = employeeCount + 94;
+        System.out.println(employeeCount);
+//        var everyTime2 = allTime / employeeCount -not;
+        var allTime2 = employeeCount * everyTime;
+        System.out.println("Если в компании работает " + employeeCount + " человека, то всего " + allTime2 + " часа работы может быть поделено между сотрудниками");
 
 
     }
